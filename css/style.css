@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#main {
+    width: 96%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+#main_menu {
+    width: 32%;
+    min-width: 200px;
+    min-height: 20px;
+    background-color: rgb(68, 238, 68);
+}
+
+#main_content {
+    width: 66%;
+    min-height: 20px;
+    background-color: rgb(10, 125, 163);
+}
+
+.list {
+    list-style: none;
+}
+
+.list_item {
+    font-size: 1em;
+}
+
+.list_item:hover {
+    cursor: pointer;
+}
