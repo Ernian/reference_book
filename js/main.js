@@ -1,6 +1,6 @@
 let $main = document.getElementById('main'),
-    $mainMenu = document.getElementById('main_menu'),
-    $mainContent = document.getElementById('main_content');
+    $mainMenu = document.getElementById('main-menu'),
+    $mainContent = document.getElementById('main-content');
 
 const appData = {}
 
@@ -9,9 +9,9 @@ prepareData(mainMenu)
 
 function renderMainMenu(menu) {
     let $menu = document.createElement('ul')
-    $menu.classList.add('list')
+    $menu.classList.add('main-menu-list')
     menu.forEach(item => {
-        $menu.innerHTML += `<li class="list_item link" data-key="${item.key}">${item.pointName}</li>`
+        $menu.innerHTML += `<li class="main-menu-list__item link" data-key="${item.key}">${item.pointName}</li>`
     })
     $mainMenu.append($menu)
 }
@@ -31,7 +31,7 @@ function renderData(data, root, key = '') {
         let $container = document.createElement('section')
         $container.classList.add('section')
         let $header = document.createElement('h3')
-        $header.classList.add('section-name')
+        $header.classList.add('section-name', 'aaa')
         $header.innerHTML = item.sectionName
         $container.append($header)
 
@@ -87,10 +87,8 @@ function renderData(data, root, key = '') {
 }
 
 $mainMenu.addEventListener('click', event => {
-    if (Object.keys(appData).length == 0) {
-        prepareData(mainMenu)
-    }
     if (event.target.classList.contains('link')) {
+        clearMainContent()
         renderData(appData, $mainContent, event.target.dataset.key)
     }
 })
