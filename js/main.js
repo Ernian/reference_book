@@ -30,29 +30,30 @@ function renderData(data, root, key = '') {
     data[key].forEach(item => {
         let $container = document.createElement('section')
         $container.classList.add('section')
-        let $header = document.createElement('h3')
-        $header.classList.add('section-name', 'aaa')
+        let $header = document.createElement('h2')
+        $header.classList.add('section__name')
         $header.innerHTML = item.sectionName
         $container.append($header)
 
         if (item.articles && item.articles.length > 0) {
             item.articles.forEach(article => {
                 let $article = document.createElement('article')
+                $article.classList.add('section__article')
                 if (article.articleName) {
-                    let $articleName = document.createElement('p')
-                    $articleName.classList.add('article-name')
+                    let $articleName = document.createElement('h3')
+                    $articleName.classList.add('section__article__name')
                     $articleName.innerHTML = article.articleName
                     $article.append($articleName)
                 }
                 if (article.shortDescription) {
                     let $shortDescription = document.createElement('p')
-                    $shortDescription.classList.add('short-description')
+                    $shortDescription.classList.add('section__short-description')
                     $shortDescription.innerHTML = article.shortDescription
                     $article.append($shortDescription)
                 }
                 if (article.description && article.description.length > 0) {
                     let $description = document.createElement('ul')
-                    $description.classList.add('description')
+                    $description.classList.add('section__description')
                     article.description.forEach(item => {
                         let $point = document.createElement('li')
                         if (item.code && item.description) {
@@ -73,7 +74,7 @@ function renderData(data, root, key = '') {
                     $source.classList.add('source')
                     article.source.forEach(item => {
                         let $point = document.createElement('li')
-                        let $link = `<a href="${item}" target="_blank">Источник</a>`
+                        let $link = `<a href="${item}" class="source__link" target="_blank">Источник</a>`
                         $point.insertAdjacentHTML('beforeend', $link)
                         $source.append($point)
                     })

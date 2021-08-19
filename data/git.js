@@ -9,12 +9,6 @@ const git = [
                 source: [],
             },
             {
-                articleName: 'test',
-                shortDescription: 'Инициализация test test test test test',
-                description: ['Инициализирует локальный репозиторий. Создает в текущем каталоге новый подкаталог с именем .git, который содержит все необходимые файлы репозитория (структуру git репозитория).     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe odio cupiditate vel ipsam sunt fugiat facilis assumenda blanditiis reiciendis voluptates, animi tempora neque ratione ut rerum. Debitis blanditiis molestiae, ullam, reprehenderit, similique quasi nihil illo ipsam possimus aut distinctio sunt in deleniti quis rerum dolores. Qui dicta aspernatur porro numquam laborum delectus totam eveniet ut. Tenetur adipisci perspiciatis, commodi obcaecati animi, et necessitatibus ipsam reiciendis placeat labore in inventore? Maiores ullam nihil suscipit quis et, sequi vero, quidem quisquam fugit eligendi iure rem illo fugiat quasi recusandae est cupiditate perspiciatis exercitationem molestias accusantium minus. Cumque minima perspiciatis enim illum nostrum error quibusdam deleniti necessitatibus corporis sapiente doloribus aspernatur quo odio quis quasi iure, voluptatibus ex. Hic, neque laborum minus voluptates impedit eum adipisci asperiores exercitationem quas magnam voluptatibus culpa, saepe delectus. Possimus natus assumenda numquam nisi aspernatur labore officia perspiciatis deleniti nesciunt reiciendis esse est dignissimos, dicta quaerat corporis quidem. Sit, molestias veritatis natus consequatur ipsum deleniti assumenda earum fuga atque iusto odit repellendus quo cupiditate, quos necessitatibus culpa rem id consequuntur distinctio ratione. Odit nobis ipsum laudantium. Sequi ab non nostrum est qui quaerat adipisci, labore repellendus nihil similique possimus aut fuga dicta culpa unde vero quo eos minima doloribus consequatur nisi veniam! Minus cum nam cupiditate dolore aspernatur ea unde fuga molestiae nostrum. Aspernatur eius enim natus neque blanditiis quod ad cum recusandae. Ipsa dignissimos ut molestiae officiis earum consectetur sunt eius harum qui numquam, exercitationem amet, ab, facilis laborum eligendi aut veniam. Provident consequuntur distinctio quam ratione, obcaecati odio quia eaque quod vel, illum eveniet fugiat sed adipisci architecto iusto neque itaque velit quaerat? Labore minus laborum minima quae in? Ad pariatur recusandae nam esse. Tempore eaque quisquam nesciunt ducimus magnam officia? Exercitationem corrupti eum suscipit consequatur iste, saepe mollitia! Reprehenderit magnam repudiandae repellendus maxime optio nam totam quod est ex iste debitis cum facilis, consectetur quibusdam aliquam, maiores exercitationem. Voluptatum obcaecati deleniti aliquid mollitia laudantium blanditiis et recusandae cumque dolorum fuga ipsa, cum hic exercitationem molestias nisi consequuntur at, amet veritatis esse odio suscipit ducimus ratione necessitatibus porro. Rerum inventore natus cum, pariatur magnam sequi distinctio ea nulla cumque, aspernatur ipsum quam eligendi ratione labore veritatis accusantium quisquam, quidem perferendis odio! Iste facilis accusantium numquam repellendus? Et corporis unde, suscipit eos porro atque minima fuga inventore non ducimus ullam doloribus, natus culpa sed quia eum tenetur, expedita excepturi maxime quam maiores explicabo aliquam vitae aperiam. Distinctio, et. Enim aliquam doloremque animi laborum. Accusamus, aut. Ipsum exercitationem pariatur odio, ad eius nesciunt enim amet a odit, perspiciatis cum qui suscipit necessitatibus doloribus quos repellat voluptatem aspernatur atque praesentium sequi vitae natus. Assumenda quibusdam vitae, hic ullam at quod cupiditate quos tenetur ex omnis. Dicta vitae omnis deserunt cumque officia, pariatur dolor eaque, fuga asperiores, culpa eius velit aut a eligendi labore quidem quas? Doloribus, ullam esse! Accusantium et ut omnis possimus dolorum recusandae magni doloribus porro, eum consequatur, dicta aspernatur. Maxime tempore beatae eveniet asperiores, quibusdam eius ex amet quo omnis quisquam inventore unde a repudiandae cupiditate accusamus autem fuga quos. Sunt non eius cum suscipit corrupti provident alias nam at magnam, in laborum dolore, asperiores sed modi laboriosam totam ipsam necessitatibus! Optio odio est alias nihil dolorum sapiente deleniti voluptatum incidunt repellendus, adipisci praesentium voluptates possimus dicta nisi modi id voluptas quaerat vitae provident. Quaerat accusamus illum a laborum suscipit illo culpa aperiam cum, id libero enim laboriosam dolore excepturi tempore ab autem neque perferendis nisi animi magni quo velit. Consectetur praesentium provident voluptatibus quasi impedit iste, animi saepe repudiandae adipisci! Eveniet ipsa delectus dolorum nobis aspernatur, laborum minus architecto, veritatis minima consequatur possimus, consectetur omnis quod provident quia corporis sunt? Molestiae quidem incidunt autem fugiat veritatis impedit a excepturi libero voluptatibus accusamus consectetur mollitia doloremque officiis ipsam veniam reprehenderit ullam unde illum placeat optio deleniti, quam id, tempore obcaecati? Sit dolorum, beatae perferendis voluptate ipsa, accusamus nam, inventore adipisci facilis officiis nisi minus neque quasi odit sint natus reiciendis corrupti labore praesentium? Minima molestias, ullam itaque velit voluptatum voluptatem quisquam rem dolorem corrupti sapiente? Alias iusto adipisci deserunt temporibus molestiae velit accusamus, beatae aliquam obcaecati voluptate quod labore neque aliquid nemo eveniet facilis? Explicabo, delectus sint officiis laborum accusantium corrupti quibusdam sequi fuga tenetur, cumque tempora magnam cupiditate consequatur eos in quaerat quasi consectetur perspiciatis placeat quis facilis dicta deserunt? Doloribus, consequatur blanditiis deserunt dicta illo quas, minima cumque eaque, qui temporibus mollitia aspernatur nemo quasi soluta voluptas optio. Quae rerum eaque aspernatur cum ipsa mollitia iure autem harum, suscipit nulla placeat ipsum molestias molestiae quos. Omnis, fugiat! Ipsam asperiores ullam architecto sequi nemo dignissimos aliquid adipisci excepturi voluptates. Deleniti delectus totam cupiditate hic repellendus. Dolorem vel, temporibus doloremque sint quas non repellat autem ducimus, quam ratione earum. Quo explicabo nulla aut placeat impedit voluptatibus commodi laudantium ipsum illum. Mollitia eligendi in impedit id sunt nesciunt inventore a quaerat quos aspernatur, sint minima illo quibusdam rerum deserunt aperiam numquam porro natus neque quae! Itaque nostrum voluptates consequuntur. Eveniet odio dolores est voluptatem sed aut amet omnis, aliquam sit. Iure tenetur nam sunt tempora commodi molestias laudantium. Cupiditate dicta est nulla voluptatem nobis, nesciunt, excepturi qui sed dignissimos pariatur consectetur odio, commodi incidunt fugit similique veniam et. Ea debitis quia optio esse aspernatur consequuntur id delectus inventore quas! Ducimus pariatur illo, beatae deserunt nesciunt illum sit voluptatum tenetur et cumque nobis excepturi quis earum perspiciatis repudiandae ut. Earum maxime omnis id eligendi, eveniet explicabo voluptate deleniti?'],
-                source: [],
-            },
-            {
                 articleName: 'git config',
                 shortDescription: 'Используется для установки настроек репозитория',
                 description: [
@@ -24,7 +18,49 @@ const git = [
                     { code: 'git config --local', description: 'настройки на уровне конкретного проекта' },
                 ],
                 source: ['one', 'two'],
-            },
+            },            
         ],
+    },
+    {
+        sectionName: 'Основные команды',
+        articles: [
+            {
+                articleName: 'git add',
+                shortDescription: 'Команда git add добавляет содержимое рабочего каталога в индекс (staging area) для последующего коммита.',
+                description: [],
+                source: [],
+            },
+            {
+                articleName: 'git commit',
+                shortDescription: 'Команда берёт все данные, добавленные в индекс с помощью git add, и сохраняет их слепок во внутренней базе данных, а затем сдвигает указатель текущей ветки на этот слепок.',
+                description: [],
+                source: [],
+            },
+            {
+                articleName: 'git status',
+                shortDescription: 'Команда git status показывает состояния файлов в рабочем каталоге и индексе: какие файлы изменены, но не добавлены в индекс: какие ожидают коммита в индексе. Вдобавок к этому выводятся подсказки о том, как изменить состояние файлов.',
+                description: [
+                    { code: 'git status -s || git status -short', description: 'упрощенный вывод ' },
+                ],
+                source: [],
+            },
+            {
+                articleName: 'git diff',
+                shortDescription: 'Просмотр индексированных и неиндексированных изменений',
+                description: ['Если результат работы команды git status недостаточно информативен и хочется знать, что конкретно поменялось, а не только какие файлы были изменены — можно использовать команду git diff. Ее основное применение - это получение ответов на два вопроса: что вы изменили, но еще не проиндексировали, и что вы проиндексировали и собираетесь добавить в коммит.',
+                'Чтобы увидеть, что вы уже изменили, но пока не проиндексировали, наберите git diff без аргументов. Эта команда сравнивает содержимое вашего рабочего каталога с содержимым индекса. Результат показывает еще не проиндексированные изменения',
+                {code: 'git diff --staged || git diff --cached', description: 'Если вы хотите посмотреть, что вы проиндексировали и что войдет в следующий коммит, эта команда сравнивает ваши проиндексированные изменения с последним коммитом.'},
+                ],
+                source: [],
+            },
+            {
+                articleName: 'git rm',
+                shortDescription: 'Используется для удаления файлов из индекса и рабочей копии.',
+                description: ['Для того чтобы удалить файл из Git, вам необходимо удалить его из отслеживаемых файлов (точнее, удалить его из вашего индекса) а затем выполнить коммит. Это позволяет сделать команда git rm, которая также удаляет файл из вашего рабочего каталога, так что в следующий раз вы не увидите его как «неотслеживаемый».',
+                'Если вы изменили файл и уже проиндексировали его, вы должны использовать принудительное удаление с помощью параметра -f. Это сделано для повышения безопасности, чтобы предотвратить ошибочное удаление данных, которые ещё не были записаны в снимок состояния и которые нельзя восстановить из Git.',
+                'Другая полезная штука, которую вы можете захотеть сделать — это удалить файл из индекса, оставив его при этом в рабочем каталоге. Другими словами, вы можете захотеть оставить файл на жёстком диске, но перестать отслеживать изменения в нём. Это особенно полезно, если вы забыли добавить что-то в файл .gitignore и по ошибке проиндексировали, например, большой файл с логами, или кучу промежуточных файлов компиляции. Чтобы сделать это, используйте опцию --cached'],
+                source: [],
+            },
+        ]
     }
 ]
