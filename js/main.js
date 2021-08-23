@@ -1,5 +1,6 @@
 let $main = document.getElementById('main'),
     $mainMenu = document.getElementById('main-menu'),
+    $mainMenuList = null,
     $mainContent = document.getElementById('main-content');
 
 const appData = {}
@@ -11,7 +12,7 @@ function renderMainMenu(menu) {
     let $menu = document.createElement('ul')
     $menu.classList.add('main-menu-list')
     menu.forEach(item => {
-        $menu.innerHTML += `<li class="main-menu-list__item link" data-key="${item.key}">${item.pointName}</li>`
+        $menu.innerHTML += `<li class="main-menu-list__item" data-key="${item.key}">${item.pointName}</li>`
     })
     $mainMenu.append($menu)
 }
@@ -38,7 +39,7 @@ function renderData(data, root, key = '') {
         if (item.articles && item.articles.length > 0) {
             item.articles.forEach(article => {
                 let $article = document.createElement('article')
-                $article.classList.add('section__article')
+                $article.classList.add('hide')
                 if (article.articleName) {
                     let $articleName = document.createElement('h3')
                     $articleName.classList.add('section__article__name')
@@ -74,7 +75,7 @@ function renderData(data, root, key = '') {
                     $source.classList.add('source')
                     article.source.forEach(item => {
                         let $point = document.createElement('li')
-                        let $link = `<a href="${item}" class="source__link" target="_blank">Источник</a>`
+                        let $link = `<a href="${item.path}" class="source__link" target="_blank">${item.name}</a>`
                         $point.insertAdjacentHTML('beforeend', $link)
                         $source.append($point)
                     })
@@ -87,9 +88,40 @@ function renderData(data, root, key = '') {
     })
 }
 
+function selectMenuItem(event) {
+    if (!$mainMenuList){
+        $mainMenuList = document.querySelectorAll('.main-menu-list__item')
+    }    
+    if (event.target.classList.contains('main-menu-list__item_active')){
+        return
+    } else {      
+        $mainMenuList.forEach(item => {
+            if (item.classList.contains('main-menu-list__item_active')){
+                item.classList.remove('main-menu-list__item_active')
+            }
+        })
+        event.target.classList.add('main-menu-list__item_active')
+    }
+}
+
+function showAndHideArticles (event) {
+    const section = event.target.parentNode.querySelectorAll('article')
+    section.forEach(item => {
+        item.classList.toggle('hide')
+        item.classList.toggle('section__article')
+    })
+}
+
 $mainMenu.addEventListener('click', event => {
-    if (event.target.classList.contains('link')) {
+    if (event.target.classList.contains('main-menu-list__item')) {
         clearMainContent()
         renderData(appData, $mainContent, event.target.dataset.key)
+        selectMenuItem(event)
+    }
+})
+
+$mainContent.addEventListener('click', event => {
+    if (event.target.classList.contains('section__name')) {
+        showAndHideArticles(event)
     }
 })

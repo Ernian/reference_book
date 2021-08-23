@@ -17,7 +17,7 @@ const git = [
                     { code: 'git config --global', description: 'настройки на уровне конкретного пользователя' },
                     { code: 'git config --local', description: 'настройки на уровне конкретного проекта' },
                 ],
-                source: ['one', 'two'],
+                source: [{name: 'Link 1', path: 'one'}, {name: 'Link 2', path: 'two'}],
             },            
         ],
     },

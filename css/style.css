@@ -43,6 +43,8 @@ body {
 .section {
     border: 3px solid #3456FF;
     border-radius: 20px;
+    overflow: hidden;
+    position: relative;
 }
 
 .section:not(:last-child) {
@@ -56,9 +58,19 @@ body {
     color: #FFF;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    user-select: none;
+}
+
+.section__name:hover {
+    cursor: pointer;
+}
+
+.hide {
+    position: absolute;
 }
 
 .section__article {
+    transition: .5s;
     padding: 15px 20px 0 20px;
 }
 
