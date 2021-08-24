@@ -28,6 +28,10 @@ function clearMainContent() {
 }
 
 function renderData(data, root, key = '') {
+    if (data[key].length === 0) {
+        $mainContent.innerHTML = '<h2 style="user-select: none">Раздел находится в разработке</h2>'
+        return
+    }
     data[key].forEach(item => {
         let $container = document.createElement('section')
         $container.classList.add('section')

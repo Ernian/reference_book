@@ -30,9 +30,9 @@ body {
 }
 
 #main-content {
-    width: 78%;
-    min-height: 40px;
-    max-height: 95vh;
+    width: 76%;
+    max-height: 96vh;
+    overflow: hidden;
     overflow-y: auto;
     background-color: #fff;
     border-radius: 30px;
@@ -44,7 +44,6 @@ body {
     border: 3px solid #3456FF;
     border-radius: 20px;
     overflow: hidden;
-    position: relative;
 }
 
 .section:not(:last-child) {
@@ -66,12 +65,14 @@ body {
 }
 
 .hide {
-    position: absolute;
+    height: 0;
+    transition: .3s;
 }
 
 .section__article {
-    transition: .5s;
     padding: 15px 20px 0 20px;
+    height: auto;
+    transition: .3s;
 }
 
 .section__article__name {
@@ -84,6 +85,10 @@ body {
 
 .section__description {
     line-height: 22px;
+}
+
+.section__description > li:not(:last-child) {
+    margin-bottom: 20px;
 }
 
 .code {
